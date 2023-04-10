@@ -1,8 +1,7 @@
 import pymongo
-
-from info import DATABASE_URI, DATABASE_NAME
-
 import logging
+from FilmCorner_Robot import DATABASE_URI, DATABASE_NAME
+
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 
