@@ -384,6 +384,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "filmcorner":
         await query.answer(text=script.FILMCORNER_TXT, show_alert=True)
+    elif query.data == "about":
+        await query.answer(text=script.ABOUT_TXT, show_alert=True)
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
