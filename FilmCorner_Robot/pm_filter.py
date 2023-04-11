@@ -430,9 +430,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Purge', callback_data='purge'),
             InlineKeyboardButton('Sudo', callback_data='admin'),
             ],[
-            InlineKeyboardButton('Share-Text', callback_data='sharetext'),
+            InlineKeyboardButton('S-Text', callback_data='sharetext'),
             InlineKeyboardButton('IMDB', callback_data='search'),
-            InlineKeyboardButton('TGraph', callback_data='tgraph'),
+            InlineKeyboardButton('T-Graph', callback_data='tgraph'),
             ],[                       
             InlineKeyboardButton('« Back', callback_data='start'),
             InlineKeyboardButton('Close ✗', callback_data='close_data'),
@@ -454,7 +454,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "auto_manual":
+    elif query.data == "auto_manuel":
         buttons = [[
             InlineKeyboardButton('AutoFilter', callback_data='autofilter'),
             InlineKeyboardButton('ManuelFilter', callback_data='manuelfilter')
