@@ -5,11 +5,11 @@ My Name Is <a href=https://t.me/{}>{}</a>...!!
 
 I Can Provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me.
 
-Just Add Me To Your Group As Admin, Hit The ℹ️ Help Button For More Info...!!</b>"""
+Just Add Me To Your Group As Admin, Hit The ℹ️ Help Button For More Info...!!</b></i>"""
 
-    HELP_TXT = """Hello 👋 {},
+    HELP_TXT = """<b><i>Hello 👋 {},
 
-<b>Here Is The Help For My Commands.</b>"""
+<b>Here Is The Help For My Commands.</b></i>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
 ➥ Creator: <a href='https://t.me/zautekm'>Zaute Km</a>
