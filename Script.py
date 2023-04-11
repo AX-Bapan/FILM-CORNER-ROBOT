@@ -20,7 +20,15 @@ I Can Guide You Through All Of <a href=https://t.me/{}>{}</a>'s Cool Features & 
 ❖ Farmework : Pyrogram
 ❖ Database : MongoDB
 ֎ Bot : Indian 🇮🇳"""
-    
+
+    FILMCORNER_TXT = """ミ★ FILM CORNER ★彡
+
+☞ Sᴛᴏʀᴀɢᴇ Oғ Nᴇᴡ & Oʟᴅ Mᴏᴠɪᴇs/Sᴇʀɪᴇs
+☞ Aᴠᴀɪʟᴀʙʟᴇ Iɴ Mᴀɴʏ Sɪᴢᴇs & Lᴀɴɢᴜᴀɢᴇs
+☞ Rᴇᴄᴇɪᴠᴀʙʟᴇ Iɴ Vᴀʀɪᴏᴜs Qᴜᴀʟɪᴛʏ
+👑
+PR0FESS0R-TG"""
+
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter Is The Feature Were Users Can Set Automated Replies For a Particular keyword And Dingdi Will Respond Whenever a Keyword isy Found The Message 
