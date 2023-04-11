@@ -1,23 +1,24 @@
 class script(object):
     START_TXT = """<b><i>Hello 👋 {},
 
-My Name Is <a href=https://t.me/{}>{}</a>...!!
+I Am Not Only <a href=https://t.me/{}>{}</a> To Assist You But Also Employed At <a href='https://t.me/+-IowXvOTa2cyMGQ9'>Film Corner</a> Group By <a href='https://t.me/PR0FESS0R_TG'>PR0FESS0R-TG</a> So You Can't Get My Service By Adding Me To Your Group So Don't Waste Your Time & Data 😉
 
-I Can Provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me.
+Better You Click Below & Join <a href='https://t.me/+-IowXvOTa2cyMGQ9'>Film Corner</a> & Feel The Experience Of Downloading Unlimited Movies/Series ✅
 
-Just Add Me To Your Group As Admin, Hit The ℹ️ Help Button For More Info...!!</b></i>"""
+For More Information Click ℹ️ Help</b></i>"""
 
     HELP_TXT = """<b><i>Hello 👋 {},
 
-<b>Here Is The Help For My Commands.</b></i>"""
+I Can Guide You Through All Of <a href=https://t.me/{}>{}</a>'s Cool Features & How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules</b></i>"""
 
-    ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/zautekm'>Zaute Km</a>
-➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
-➥ Language: Python 𝟹
-➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
-➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
-➥ Build Status: v2.0.1 [ Beta ]"""
+    ABOUT_TXT = """꧁֍FILM CORNER BOT֍꧂
+ツ Creator : PR0FESS0R-TG 
+❖ Language : Python3
+❖ Hosted : Heroku
+❖ Version : 10.0
+❖ Farmework : Pyrogram
+❖ Database : MongoDB
+֎ Bot : Indian 🇮🇳"""
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
