@@ -12,6 +12,7 @@ For More Information Click ℹ️ Help</b></i>"""
 I Can Guide You Through All Of <a href=https://t.me/{}>{}</a>'s Cool Features & How To Properly Use Them. Use The Buttons Below To Navigate Through All Of The Modules</b></i>"""
 
     ABOUT_TXT = """꧁֍FILM CORNER BOT֍꧂
+
 ツ Creator : PR0FESS0R-TG 
 ❖ Language : Python3
 ❖ Hosted : Heroku
@@ -22,159 +23,145 @@ I Can Guide You Through All Of <a href=https://t.me/{}>{}</a>'s Cool Features & 
     
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
+- Filter Is The Feature Were Users Can Set Automated Replies For a Particular keyword And Dingdi Will Respond Whenever a Keyword isy Found The Message 
 
 <b>NOTE:</b>
-1. Film Corner Bot should have admin privillage.
-2. Only admins can add filters in a chat.
-3. Alert buttons have a limit of 64 characters.
+1. Film Corner Bot Should Have Admin Privillage.
+2. Only Admins Can Add Filters In a Chat.
+3. Alert Buttons Have a Limit Of 64 Characters.
 
 <b>Commands and Usage:</b>
-• /filter - add a filter in chat.
-• /filters - list all the filters of a chat.
-• /del - delete a specific filter in chat.
-• /delall - delete the whole filters in a chat (chat owner only)."""
+• /filter - Add a Filter In Chat.
+• /filters - List All The Filters Of a Chat.
+• /del - Delete a Specific Filter In Chat.
+• /delall - Delete The Whole Filters In a Chat (Chat Owner Only)."""
 
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- tgmoviebot support both url and alert inline buttons.
+- Film Corner Bot Support Both URL And Alert Inline Buttons.
 
 <b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Film Corner Bot supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format.
+1. Telegram Will Not Allows You To Send Buttons Without Any Content, So Content Is Mandatory.
+2. Film Corner Bot Supports Buttons With Any Telegram Media Type.
+3. Buttons Should Be Properly Parsed As Markdown Format.
 
-<b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<b>URL Buttons:</b>
+<code>[Button Text](buttonurl:https://t.me/xxxxxxxxxxxxx)</code>
 
-<b>Alert buttons:</b>
+<b>Alert Buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
 
     FILLINGS_TXT = """Help: <b>Fillings</b>
 
-You can also customise the contents of your message with contextual data. For example, you could mention a user by name in the filter message, or mention them in a filter!
+- You Can Also Customize The Contents Of Your Message With Contextual Data. For Example, You Could Mention a User By Name In The Filter Message, Or Mention Then In a Filter..!
 
 <b>Supported fillings:</b>
-- <code>{first}</code>: The user's first name.
-- <code>{last}</code>: The user's last name.
-- <code{username}</code>: The user's username.
-- <code>{mention}</code>: Mentions the user with their firstname.
-- <code>{id}</code>: The user's ID.
-- <code>{dcid}</code>: The user's DC ID.
-- <code>{chatname}</code>: The chat's name.
+- <code>{first}</code>: The User's First Name.
+- <code>{last}</code>: The User's Last Name.
+- <code{username}</code>: The User's Username.
+- <code>{mention}</code>: Mentions The User With Their Firstname.
+- <code>{id}</code>: The User's ID.
+- <code>{dcid}</code>: The User's DC ID.
+- <code>{chatname}</code>: The Chat's Name.
 - <code>{query}</code>: Any Replied Message.
 
 <b>Example:</b>
-<b>- Save a filter using the mention.</b>
--> <code>/filter test Hello {mention} This Is your Username : {username} And This Is your ID : {id}.</code>
+<b>- Save a Filter Using The Mention.</b>
+-> <code>/filter Test Hello {mention} This Is your Username : {username} And This Is your ID : {id}.</code>
 """
 
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
-2. Make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+1. Make Me The Admin Of Your Channel If It's Private.
+2. Make Sure That Your Channel Does Not Contains Camrips, Porn And Fake Files.
+3. Forward The Last Message To Me With Quotes. I'll Add All The Files In That Channel To My DataBase."""
 
     CONNECTION_TXT = """Help: <b>Connections</b>
 
-- Used to connect bot to PM for managing filters 
-- It helps to avoid spamming in groups.
+- Used To Connect Bot To PM For Managing Filters 
+- It Helps To Avoid Spamming In Groups.
 
 <b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
+1. Only Admins Can Add a Connection.
+2. Send <code>/connect</code> For Connecting Me To Your PM.
 
 <b>Commands and Usage:</b>
-• /connect  - connect a particular chat to your PM.
-• /disconnect  - disconnect from a chat.
-• /connections - list all your connections."""
+• /connect  - Connect a Particular Chat To Your PM.
+• /disconnect  - Disconnect From a Chat.
+• /connections - List All Your Connections."""
 
     AUTO_MANUEL_TXT = """Help: <b>Filters</b>
 
-<b>Select a filters type Below:</b>"""
+<b>Select a Filters Type Bellow</b>"""
+    
+    TGRAPH_TXT = """Help: <b>T-Graph</b>
 
-    PASTE_TXT = """Help: <b>Paste</b>
-
-Paste some texts or documents on a website!
-
-<b>Commands and Usage:</b>
-• /paste [text] - paste the given text on Pasty
-• /paste [reply] - paste the replied text on Pasty
-
-<b>NOTE:</b>
-• Film Corner Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
-
-    TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
-
-Do as you wish with telegra.ph module!
+- Do As You Wish With Telegraph Module..!
 
 <b>Commands and Usage:</b>
-• /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
+• /tgmedia Or /tgraph - Upload Supported Media (Within 5MB) To Telegraph.
 
 <b>NOTE:</b>
-• Film Corner Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+• Film Corner Bot Should Have Admin Privillage.
+• These Commands Works On Both PM And Group.
+• These Commands Can Be Used By Any Group Member."""
 
     INFO_TXT = """Help: <b>Information</b>
 
-Get information about something!
+- Get Information About Something..!
 
 <b>Commands and Usage:</b>
-• /id - get id of a specified user.
-• /info  - get information about a user.
-• /json - get the json details of a message.
+• /id - Get ID Of a Specified User.
+• /info  - Get Information About a User.
+• /json - Get The JSON Details Of a Message.
 
 <b>NOTE:</b>
-• Film Corner Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+• Film Corner Bot Should Have Admin Privillage.
+• These Commands Works On Both PM And Group.
+• These Commands Can Be Used By Any Group Member."""
    
     GTRANS_TXT = """Help: <b>Google Translator</b>
 
-Translate texts to a specific language!
+- Translate Texts To a Specific Language..!
 
 <b>Commands and Usage:</b>
-• /tr [language code][reply] - translate replied message to specific language.
+• /tr [language code][reply] - Translate Replied Message To Specific Language.
 
 <b>NOTE:</b>
-• Film Corner Bot should have admin privillage.
-• These commands works on both pm and group.
-• Film Corner Bot can translate texts to 200+ languages."""
+• Film Corner Bot Should Have Admin Privillage.
+• These Commands Works On Both PM And Group.
+• Film Corner Bot Can Translate Texts To 200+ Languages."""
 
-    SEARCH_TXT = """Help: <b>IMDb</b>
+    SEARCH_TXT = """Help: <b>IMDB</b>
 
-Search many things without leaving telegram!
+- Search Many Things Without Leaving Telegram..!
 
 <b>Commands and Usage:</b>
-• /imdb  - get the film information from IMDb source.
-• /search  - get the film information from various sources.
+• /imdb  - Get The Film Information From IMDB Source.
+• /search  - Get The Film Information From Various Sources.
 
 <b>NOTE:</b>
-• Film Corner Bot should have admin privillage.
-• More search tools can be found on inline.
-• Those commands works on both pm and group."""
+• Film Corner Bot Should Have Admin Privillage.
+• More Search Tools Can Be Found On Inline.
+• Those Commands Works On Both PM And Group."""
 
     PURGE_TXT = """Help: <b>Purge</b>
 
-Need to delete lots of messages? That's what purges are for!
+- Need To Delete Lots Of Messages..? That's What Purges Are For..!
 
 <b>Commands and Usage:</b>
-• /purge - delete all messages from the replied to message, to the current message.
+• /purge - Delete All Messages From The Replied To Message, To The Current Message.
 
 <b>NOTE:</b>
-• Film Corner Bot should have admin privillage.
-• These commands works on group.
-• These commands can be used by Only admin."""
+• Film Corner Bot Should Have Admin Privillage.
+• These Commands Works On Group.
+• These Commands Can Be Used By Only Admin."""
     
     ADMIN_TXT = """Help: <b>Admin Mods</b>
 
 <b>NOTE:</b>
-This module only works for my admins
+This Module Only Works For My Admins 
 
 <b>Commands and Usage:</b>
 • /logs - to get the rescent errors.
@@ -189,24 +176,24 @@ This module only works for my admins
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
+    SHARE_TXT = """Help: <b>Sharing Text Maker</b>
+
+- This Bot Create a Link To Share Text In The Telegram.
+
+<b>Commands and Usage:</b>
+• /share (Text Or Reply To Message)
+
+<b>NOTE:</b>
+• Film Corner Bot Should Have Admin Privillage.
+• These Commands Works On Both PM And Group.
+• These Commands Can Be Used By Any Group Member."""
+
     STATUS_TXT = """<b>Total Files:</b> <code>{}</code>
 <b>Total Users:</b> <code>{}</code>
 <b>Total Chats:</b> <code>{}</code>
 <b>Used Storage:</b> <code>{}</code> MiB
 <b>Free Storage:</b> <code>{}</code> MiB"""
     
-    SHARE_TXT = """Help: <b>Sharing Text Maker</b>
-
-a bot to create a link to share text in the telegram.
-
-<b>Commands and Usage:</b>
-• /share (text or reply to message)
-
-<b>NOTE:</b>
-• Film Corner Bot should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
-
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
