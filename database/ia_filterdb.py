@@ -66,7 +66,7 @@ async def save_file(media):
 
 
 
-async def get_search_results(query, file_type=None, max_results=10, offset=0, filter=False):
+async def get_search_results(query, file_type=None, max_results=5, offset=0, filter=False):
     """For given query return (results, next_offset)"""
 
     query = query.strip()
@@ -107,7 +107,6 @@ async def get_search_results(query, file_type=None, max_results=10, offset=0, fi
     cursor.skip(offset).limit(max_results)
     # Get list of files
     files = await cursor.to_list(length=max_results)
-
     return files, next_offset, total_results
 
 
