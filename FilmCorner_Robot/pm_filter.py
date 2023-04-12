@@ -99,6 +99,9 @@ async def next_page(bot, query):
         btn.append(
                 [InlineKeyboardButton(text="🤖 Check Bot PM 🤖", url=f"https://t.me/{temp.U_NAME}")]
         )
+    allreq = 'allfilep' if settings['file_secure'] else 'allfile'
+    btn.insert(0, [InlineKeyboardButton("Send All", callback_data=f"{allreq}_{req}_{key}_{n_offset}")]
+        )
     else:
         btn.append(
             [
@@ -106,10 +109,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"🗓 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),                
                 InlineKeyboardButton("Next ➡", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
-        )
-    allreq = 'allfilep' if settings['file_secure'] else 'allfile'
-    btn.insert(0, [InlineKeyboardButton("Send All", callback_data=f"{allreq}_{req}_{key}_{n_offset}")]
-        )
+        )    
         btn.append(
                 [InlineKeyboardButton(text="🤖 Check Bot PM 🤖", url=f"https://t.me/{temp.U_NAME}")]
         )
