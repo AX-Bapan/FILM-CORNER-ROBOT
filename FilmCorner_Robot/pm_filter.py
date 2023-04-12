@@ -99,9 +99,6 @@ async def next_page(bot, query):
         btn.append(
                 [InlineKeyboardButton(text="🤖 Check Bot PM 🤖", url=f"https://t.me/{temp.U_NAME}")]
         )
-    allreq = 'allfilep' if settings['file_secure'] else 'allfile'
-    btn.insert(0, [InlineKeyboardButton("Send All", callback_data=f"{allreq}_{req}_{key}_{n_offset}")]
-        )
     else:
         btn.append(
             [
@@ -706,10 +703,7 @@ async def auto_filter(client, msg, spoll=False):
         )
         btn.append(
                 [InlineKeyboardButton(text="🤖 Check Bot PM 🤖", url=f"https://t.me/{temp.U_NAME}")]
-        )
-    allreq = 'allfilep' if settings['file_secure'] else 'allfile'
-    btn.insert(0, [InlineKeyboardButton("Send All", callback_data=f"{allreq}_{req}_{key}_{offset}"), InlineKeyboardButton("all", callback_data="fullfile+{req}+{key}")]
-        )
+        )   
     btn.insert(0, [
         InlineKeyboardButton(text="ミ★ FILM CORNER ★彡", callback_data="filmcorner"),
     ])   
