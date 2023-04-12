@@ -3,8 +3,6 @@ from pyrogram import Client, filters
 from urllib.parse import quote
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-def share_link(text: str) -> str:
-    return "**Here is Your Sharing Text 👇**\n\nhttps://t.me/share/url?url=" + quote(text)
 
 @Client.on_message(filters.command(["share_text", "share", "sharetext",]))
 async def share_text(client, message):
@@ -17,9 +15,8 @@ async def share_text(client, message):
         input_text = reply.text or reply.caption
     else:
         await message.reply_text(
-            text=f"**Notice:**\n\n1. Reply Any Messages.\n2. No Media Support\n\n**Any Question Join Support Chat**",                
-            reply_to_message_id=reply_id,               
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Support Chat", url=f"https://t.me/MKN_BOTZ_DISCUSSION_GROUP")]])
+            text=f"**Notice:**\n\n1. Reply Any Messages.\n2. No Media Support",                
+            reply_to_message_id=reply_id,                          
             )                                                   
         return
     await message.reply_text(
