@@ -32,8 +32,8 @@ async def give_filter(client, message):
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
-    if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+    if int(req) not in [query.from_user.id, message.from_user.mention, 0]:
+        return await query.answer("Hello {query.from_user.first_name} This Is Not Your Message 🤗\n\n{message.from_user.mention} Only Can Use This ✅\n\nRequest Your Own ✍️\n\n©️ FILM CORNER", show_alert=True)
     try:
         offset = int(offset)
     except:
