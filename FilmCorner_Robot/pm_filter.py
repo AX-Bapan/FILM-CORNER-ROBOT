@@ -321,7 +321,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [[
             InlineKeyboardButton('🔗 Support', url='https://t.me/+-IowXvOTa2cyMGQ9'),
-            InlineKeyboardButton('Channel 📣', url='https://t.me/+2ky1DS2R2Wk3MzZl')
+            InlineKeyboardButton('Channel 📣', url='https://t.me/+5rUysJ3xCHVhNTdl')
             ],[   
             InlineKeyboardButton('❎ Close This File ❎', callback_data='close_data')
             ]]        
@@ -371,7 +371,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [[
             InlineKeyboardButton('🔗 Support', url='https://t.me/+-IowXvOTa2cyMGQ9'),
-            InlineKeyboardButton('Channel 📣', url='https://t.me/+2ky1DS2R2Wk3MzZl')
+            InlineKeyboardButton('Channel 📣', url='https://t.me/+5rUysJ3xCHVhNTdl')
             ],[   
             InlineKeyboardButton('❎ Close This File ❎', callback_data='close_data')
             ]]
