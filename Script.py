@@ -212,3 +212,7 @@ Added By - {}
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}"""  
+    
+    ALRT_TXT = """Hello {} This Is Not Your Message 🤗\n\nRequest Your Own ✍️\n\n©️ FILM CORNER"""
+
+    OLD_ALRT_TXT = """Hello {} You Are Using My Old Messages\n\nPlease Request Again 🙏\n\n©️ FILM CORNER"""
