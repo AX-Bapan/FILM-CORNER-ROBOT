@@ -234,7 +234,7 @@ async def start(client, message):
     buttons = [
         [
             InlineKeyboardButton('🔗 Support', url='https://t.me/+-IowXvOTa2cyMGQ9'),
-            InlineKeyboardButton('Channel 📣', url='https://t.me/+2ky1DS2R2Wk3MzZl')
+            InlineKeyboardButton('Channel 📣', url='https://t.me/+5rUysJ3xCHVhNTdl')
         ],
         [
             InlineKeyboardButton('❎ Close This File ❎', callback_data='close_data')
